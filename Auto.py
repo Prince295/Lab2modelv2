@@ -76,7 +76,6 @@ class Example( QWidget ):
             x=6
         if self.cb7.isChecked() == True:
             x=7
-        y = 1
         takt = self.sld.value()
         out = [[6, 1], [4, 2], [7, 3], [3, 2], [1, 1], [2, 1], [5, 3]]
         for i in range( takt ):
