@@ -47,7 +47,6 @@ class Example( QWidget ):
         self.OutLabel.setStyleSheet("font: 20pt Comic Sans MS; background-color: #808080; border: 2px solid #3873d9;")
         self.OutLabel.setText( "           Текущий выход         =         ")
 
-        x = 1
         self.btn1.clicked.connect( self.auto )
         grid.addWidget( self.sliderLabel, 0, 2, 2, 2 )
         grid.addWidget( self.lcd, 2, 2, 2, 2 )
@@ -92,4 +91,4 @@ if __name__ == '__main__':
     ex = Example()
     sys.exit( app.exec_() )
 
-    print( "на такте " + str( takt ) + " выходное значение будет    =     " + str( y ) )
+
